@@ -3,6 +3,7 @@ from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.externals import joblib
 # import data
 iris = datasets.load_iris()
+print(iris)
 X = iris.data[:, :2]  # we only take the first two features.
 Y = iris.target
 # init model
